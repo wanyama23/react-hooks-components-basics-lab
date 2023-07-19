@@ -1,7 +1,4 @@
 import React from "react";
-import About from "about";
-import Home from "home";
-import App from "../components/App"
 
 function NavBar() {
   return (
@@ -12,7 +9,6 @@ function NavBar() {
 }
 
 function Home() {
-  
   return (
     <div id="home">
       <h1>Home</h1>
@@ -22,14 +18,11 @@ function Home() {
 
 function About() {
   return (
-    <div id="about"> 
-    <h2>About</h2>
+    <div id="about">
+      <h1>About</h1>
     </div>
   );
 }
-
-{/* write an <About> component here */}
-
 
 function App() {
   return (
@@ -37,8 +30,6 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      
-      
     </div>
   );
 }
